@@ -1,0 +1,126 @@
+header{
+	width: 100%;
+	height: 200px;
+	background: #ccc;
+}
+header h1{
+	font-family: fantasy;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	margin: 30px;
+	padding-top: 30px
+}
+header p{
+	font-family: times;
+	font-size: 14px;
+	color: #ffe;
+	background: #000;
+	text-align: justify;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	background: #eee;
+	text-align: center;
+}
+ul li{
+	display: inline;/*altera o display do elemento - nesse caso deixa em linha*/
+}
+ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+ul li a:hover{/*efeito hover que muda o css qunado passa o mouse*/
+	color: #0e0;
+	font-size: 35px;
+	font-family: fantasy;
+
+}
+/*Fim da nav*/
+/*Inicio da main*/
+main{
+	width: 100%;
+	min-height: 800px;
+	background: #cee;
+}
+.linhaGrande{
+	display: grid;/*definindo o display como grid*/
+	grid-template-columns: 1fr 1fr 1fr 1fr;/*1 fração*/
+}
+/*.blocoGrande{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}Não é necessário 
+*/
+.blocoGrande{
+	width: 60%;
+	min-height: 250px;
+	margin: 35px 10%;
+}
+.blocoGrande h1{
+	font-family: fantasy;
+	text-align: right;
+}
+.blocoGrande h2{
+	font-size: 20px;
+	font-family: monospace;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.blocoGrande img{
+	/*display: all;*/
+	margin: 10px -2%;
+	border-radius: 10px;/*arredonda a borda do elemento*/
+	width: 200px;
+	height: 200px
+}
+.blocoGrande p{
+	font-size: 16px;
+	font-family: cursive;
+	font-weight: bolder;
+	margin: -5px;
+	text-align: center;
+}
+.linhaPequena{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 100%;
+	min-height: 200px;
+	margin-right: 50px;
+}
+.blocoPequeno{
+	margin: 25px 35% 25px;
+}
+.blocoPequeno h2{
+	font-size: 20px;
+	font-family: inherit;
+	font-weight: bolder;
+	margin-bottom: 15px;
+}
+.blocoPequeno img{
+	border-style: 20px;
+	height: 200px;
+	width: 200px;
+}
+.blocoPequeno p{
+	font-size: 16px;
+	font-family: cursive;
+	font-weight: unset;
+	margin: -5
+}
+/*Fim da main*/
+/*Inicio footer*/
+footer{
+	width: 100%;
+	height: 100px;
+	background: #ecc;
+}
+.frase{
+	text-align: right;
+	padding-top: 80px;
+}

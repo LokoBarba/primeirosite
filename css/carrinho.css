@@ -1,0 +1,132 @@
+header h1{
+    display: flex;
+    justify-content: center;
+}
+.pagTitle{
+    font-size: 30px;
+    padding: 50px 0;
+    text-align: center;
+}
+.blocoCarrinho{
+    display: flex;/*deixa os elementos alinhados*/
+}
+.blocoCarrinho section{
+    flex: 1;/*faz com o esse elementos dentro do flex tome a parte*/
+}
+.blocoCarrinho aside{
+    background: rgb(173, 118, 225);
+}
+button{
+    cursor: pointer;
+    background: transparent
+}
+button &:hover{
+    background: #f0f1e7;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;/*preciso usar esse comando para poder usar
+    o border-bottom*/
+}
+table thead tr{
+    border-bottom: 2px solid #e4cafb;
+}
+table thead tr th{
+    text-align: left;
+    padding: 10px 0;
+}
+table tbody tr{
+    border-bottom: 2px solid #e4cafb;/*cria a linha que precisei fazer
+    para estilizar entre os produtos*/
+    &:last-child{/*tira a ultima linha feita*/
+        border: 0;
+    }
+}
+table tbody tr td{
+    padding-top: 15px;
+    padding: 20px 0;
+}
+.produto{
+    display: flex;
+    align-items: center;
+}
+.produto img{
+    border-radius: 10px;
+}
+.nome{
+    font-size: 15px;
+    color: rgb(145, 91, 11);
+}
+.categoria{
+    font-size: 7px;
+    color: rgb(145, 91, 11);
+}
+.menos{
+    background: #f76868;
+    color: rgb(24, 33, 33);
+    height: 20px;
+    width: 20px;
+    border-radius: 10% 0;
+    font-size: 10px;
+    border-color: #f76868;
+}
+.quantidade{
+    background: #f0f1e7;
+    display: inline-flex;/*pega só a linha da div, não tudo*/
+    justify-content: space-around;
+    min-width: 40px;
+}
+.mais{
+    background: #23475e;
+    color: rgb(170, 209, 196);
+    height: 20px;
+    width: 20px;
+    border-radius: 0 10%;
+    font-size: 10px;
+    border-color: #23475e;
+}
+.xis{
+    background: #1f1f1f;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: beige;
+    border-color: #1f1f1f;
+}
+
+.cabeça{
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+    background: #f0f1e7;
+}
+.info{
+    color: azure;
+    display: flex;
+    justify-content: space-between;/*da o espaçamento para os lados 
+    igualmente distribuidos*/
+    padding: 40px;
+    background: #1f1f1f;
+}
+aside button{
+    background: #0d87eb;
+    width: 100%;
+    color: aliceblue;
+}
+.base{
+    display: flex;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 40px;
+    background: #b8efea;
+}
+.info button{
+    background: #f0f1e7;
+    color: #1f1f1f;
+}

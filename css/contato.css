@@ -1,0 +1,48 @@
+.linhaContat{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.linhaForm label{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px;
+}
+.linhaForm input{
+	width: 70%;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin: 20px;
+}
+.linhaForm textarea{
+	width: 70%;
+	height: 200px;
+	background: #0feef0;
+	font-family: fantasy;
+	margin: 20px;
+}
+.linhaBotao{
+	margin-top: 20px;
+}
+.linhaBotao input{
+	width: 70%
+
+}
+.linhaBotao button{
+	width: 70%;
+	font-size: 20px;
+	margin-top: 20px;
+	margin: 20px;
+	background: #f0efff;
+	color: #000;
+}
+.blocoContat iframe{
+	 width: 70%; 
+	 height:300px; 
+	margin: 30px;
+}
+.blocoContat h2{
+	margin: 30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

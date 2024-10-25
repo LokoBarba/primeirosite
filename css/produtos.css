@@ -1,0 +1,24 @@
+
+.titleMain{
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	padding: 40px 50px;
+	font-family: fantasy;
+}
+.linhaMedia{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 15px 15px;
+	margin: 15px 15px;
+}
+.blocoMedio img{
+	border-radius: 10px;
+	height: 200px;
+	width: 200px;
+}
+.blocoMedio a p{
+	color: #2F4F4F;
+	padding: 5px 5px;
+	margin: 15px 0;
+}

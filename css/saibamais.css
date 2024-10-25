@@ -1,0 +1,19 @@
+.linhaMais{
+  }
+  .blocoMais{
+    text-align: center;
+    margin: 30px 10px;
+    width: 100%;
+  }
+  .blocoMais h2{
+    padding: 40px;
+    color: #1f1f1f;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  .blocoMais p{
+    font-size: 20px;
+    color: #1f1f1f;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
